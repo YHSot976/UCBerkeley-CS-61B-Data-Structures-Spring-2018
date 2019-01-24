@@ -1,5 +1,6 @@
 public class HelloWorld{
 
+
     public static void main(String[] args){
         // int[] numbers = new int[]{9, 2, 15, 2, 22, 10, 6};
         // System.out.println(max(numbers));
@@ -9,6 +10,7 @@ public class HelloWorld{
         windowPosSum(a, n);
         System.out.println(java.util.Arrays.toString(a));
     }
+
 
     public static void drawTriangle(int n){
         int row = 1;
@@ -23,6 +25,7 @@ public class HelloWorld{
         }
     }
 
+
     public static int max(int[] m){
         int len = m.length;
         int ind = 1;
@@ -36,6 +39,7 @@ public class HelloWorld{
         return maxnum;
     }
 
+
     public static int forMax(int[] m){
         int maxnum = m[0];
         for(int ind = 0; ind < m.length; ind += 1){
@@ -45,6 +49,7 @@ public class HelloWorld{
         }
         return maxnum;
     }
+
 
     public static void windowPosSum(int[] a, int n) {
         for(int i = 0; i < a.length; i += 1){
